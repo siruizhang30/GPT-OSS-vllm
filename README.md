@@ -10,7 +10,7 @@ pip install --upgrade pip
 pip install vllm==0.13.0
 ```
 
-### Using `openai-harmony':
+### Using `openai-harmony`:
 ```
 conda create -n vllm-oss python=3.12 -y
 conda activate vllm-oss-openai
@@ -40,7 +40,7 @@ Multiple prompts batch inference:
 python gpt-oss-vllm-plus.py
 ```
 
-### Openai-harmony vllm:
+### `Openai-harmony` vllm:
 One prompt inference:
 ```
 python gpt-oss-harmony-plain.py
